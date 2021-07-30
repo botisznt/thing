@@ -3673,7 +3673,7 @@ local code_index = "kQWtJvD"
 }) do
 	return L_1321_forvar2
 end;
-spawn(function() if game:GetService("CoreGui"):FindFirstChild("Library") then local frames = game:GetService("CoreGui").Library.MainFrame.ContainerHold:GetChildren()
+spawn(function() if game.PlaceId == "1537690962" then local frames = game:GetService("CoreGui").Library.MainFrame.ContainerHold:GetChildren()
 credits = frames[10]
 for i,v in pairs(credits:GetChildren()) do
 	if v.Name == "Label" then
