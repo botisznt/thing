@@ -3673,11 +3673,12 @@ local code_index = "kQWtJvD"
 }) do
 	return L_1321_forvar2
 end;
-spawn(function() wait() local frames = game:GetService("CoreGui").Library.MainFrame.ContainerHold:GetChildren()
+spawn(function() if game:GetService("CoreGui"):FindFirstChild("Library") then local frames = game:GetService("CoreGui").Library.MainFrame.ContainerHold:GetChildren()
 credits = frames[10]
 for i,v in pairs(credits:GetChildren()) do
 	if v.Name == "Label" then
 		v.Text = "CREDITS CORRUPTED BY TARIQ NASHEED"
 	end
+end
 end
 end)
