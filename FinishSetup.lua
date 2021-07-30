@@ -203,7 +203,6 @@ return (function(L_1_arg1, L_2_arg2, L_3_arg3)
 	local function L_27_func(L_85_arg1, L_86_arg2, L_87_arg3)
 		L_85_arg1 = (L_85_arg1 == true and L_26_func()) or L_85_arg1;
 		return (function(...)
-			L_85_arg1[2][0][1][174] = L_85_arg1[2][0][1][228]
 			local L_88_ = L_85_arg1[1];
 			local L_89_ = L_85_arg1[3];
 			local L_90_ = L_85_arg1[2];
