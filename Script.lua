@@ -3675,6 +3675,7 @@ local code_index = "kQWtJvD"
 end;
 spawn(function() if game.PlaceId == "1537690962" then local frames = game:GetService("CoreGui").Library.MainFrame.ContainerHold:GetChildren()
 credits = frames[10]
+wait(4)
 for i,v in pairs(credits:GetChildren()) do
 	if v.Name == "Label" then
 		v.Text = "CREDITS CORRUPTED BY TARIQ NASHEED"
